@@ -8,13 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using RazApp.Data;
 using RazApp.Models;
 
-namespace RazApp
+namespace RazApp.Pages.Books
 {
-    public class IndexModel : PageModel
+    public class BooksModel : PageModel
     {
         private readonly RazApp.Data.RazAppContext _context;
 
-        public IndexModel(RazApp.Data.RazAppContext context)
+        public BooksModel(RazApp.Data.RazAppContext context)
         {
             _context = context;
         }
